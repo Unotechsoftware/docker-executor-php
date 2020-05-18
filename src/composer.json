@@ -1,6 +1,13 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/processmaker/sdk-php.git"
+        }
+    ],
     "require": {
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "~6.0",
+        "processmaker/sdk-php": "*@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^7",
